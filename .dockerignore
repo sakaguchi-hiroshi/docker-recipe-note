@@ -1,0 +1,395 @@
+# flyctl launch added from .gitignore
+**/.env
+
+# flyctl launch added from src/.gitignore
+src/node_modules
+src/public/hot
+src/public/storage
+src/storage/*.key
+src/vendor
+src/**/.env
+src/**/.env.backup
+src/**/.phpunit.result.cache
+src/**/docker-compose.override.yml
+src/**/Homestead.json
+src/**/Homestead.yaml
+src/**/npm-debug.log
+src/**/yarn-error.log
+src/.idea
+src/.vscode
+
+# flyctl launch added from src/bootstrap/cache/.gitignore
+src/bootstrap/cache/**/*
+!src/bootstrap/cache/**/.gitignore
+
+# flyctl launch added from src/database/.gitignore
+src/database/**/*.sqlite*
+
+# flyctl launch added from src/storage/app/.gitignore
+src/storage/app/**/*
+!src/storage/app/**/public
+!src/storage/app/**/.gitignore
+
+# flyctl launch added from src/storage/app/public/.gitignore
+src/storage/app/public/**/*
+!src/storage/app/public/**/.gitignore
+
+# flyctl launch added from src/storage/framework/.gitignore
+src/storage/framework/**/compiled.php
+src/storage/framework/**/config.php
+src/storage/framework/**/down
+src/storage/framework/**/events.scanned.php
+src/storage/framework/**/maintenance.php
+src/storage/framework/**/routes.php
+src/storage/framework/**/routes.scanned.php
+src/storage/framework/**/schedule-*
+src/storage/framework/**/services.json
+
+# flyctl launch added from src/storage/framework/cache/.gitignore
+src/storage/framework/cache/**/*
+!src/storage/framework/cache/**/data
+!src/storage/framework/cache/**/.gitignore
+
+# flyctl launch added from src/storage/framework/cache/data/.gitignore
+src/storage/framework/cache/data/**/*
+!src/storage/framework/cache/data/**/.gitignore
+
+# flyctl launch added from src/storage/framework/sessions/.gitignore
+src/storage/framework/sessions/**/*
+!src/storage/framework/sessions/**/.gitignore
+
+# flyctl launch added from src/storage/framework/testing/.gitignore
+src/storage/framework/testing/**/*
+!src/storage/framework/testing/**/.gitignore
+
+# flyctl launch added from src/storage/framework/views/.gitignore
+src/storage/framework/views/**/*
+!src/storage/framework/views/**/.gitignore
+
+# flyctl launch added from src/storage/logs/.gitignore
+src/storage/logs/**/*
+!src/storage/logs/**/.gitignore
+
+# flyctl launch added from src/vendor/aws/aws-crt-php/.gitignore
+
+# Created by https://www.toptal.com/developers/gitignore/api/autotools,cmake,phpstorm
+# Edit at https://www.toptal.com/developers/gitignore?templates=autotools,cmake,phpstorm
+
+### Autotools ###
+# http://www.gnu.org/software/automake
+
+src/vendor/aws/aws-crt-php/**/Makefile.in
+src/vendor/aws/aws-crt-php/ar-lib
+src/vendor/aws/aws-crt-php/mdate-sh
+src/vendor/aws/aws-crt-php/py-compile
+src/vendor/aws/aws-crt-php/test-driver
+src/vendor/aws/aws-crt-php/ylwrap
+src/vendor/aws/aws-crt-php/**/.deps
+
+# http://www.gnu.org/software/autoconf
+
+src/vendor/aws/aws-crt-php/**/autom4te.cache
+src/vendor/aws/aws-crt-php/autoscan.log
+src/vendor/aws/aws-crt-php/autoscan-*.log
+src/vendor/aws/aws-crt-php/aclocal.m4
+src/vendor/aws/aws-crt-php/compile
+src/vendor/aws/aws-crt-php/config.guess
+src/vendor/aws/aws-crt-php/config.h.in
+src/vendor/aws/aws-crt-php/config.log
+src/vendor/aws/aws-crt-php/config.status
+src/vendor/aws/aws-crt-php/config.sub
+src/vendor/aws/aws-crt-php/configure
+src/vendor/aws/aws-crt-php/configure.scan
+src/vendor/aws/aws-crt-php/depcomp
+src/vendor/aws/aws-crt-php/install-sh
+src/vendor/aws/aws-crt-php/missing
+src/vendor/aws/aws-crt-php/stamp-h1
+
+# https://www.gnu.org/software/libtool/
+
+src/vendor/aws/aws-crt-php/ltmain.sh
+
+# http://www.gnu.org/software/texinfo
+
+src/vendor/aws/aws-crt-php/texinfo.tex
+
+# http://www.gnu.org/software/m4/
+
+src/vendor/aws/aws-crt-php/**/m4/libtool.m4
+src/vendor/aws/aws-crt-php/**/m4/ltoptions.m4
+src/vendor/aws/aws-crt-php/**/m4/ltsugar.m4
+src/vendor/aws/aws-crt-php/**/m4/ltversion.m4
+src/vendor/aws/aws-crt-php/**/m4/lt~obsolete.m4
+
+# Generated Makefile
+# (meta build system like autotools,
+# can automatically generate from config.status script
+# (which is called by configure script))
+src/vendor/aws/aws-crt-php/**/Makefile
+
+### Autotools Patch ###
+
+### CMake ###
+src/vendor/aws/aws-crt-php/**/CMakeLists.txt.user
+src/vendor/aws/aws-crt-php/**/CMakeCache.txt
+src/vendor/aws/aws-crt-php/**/CMakeFiles
+src/vendor/aws/aws-crt-php/**/CMakeScripts
+src/vendor/aws/aws-crt-php/**/Testing
+src/vendor/aws/aws-crt-php/**/cmake_install.cmake
+src/vendor/aws/aws-crt-php/**/install_manifest.txt
+src/vendor/aws/aws-crt-php/**/compile_commands.json
+src/vendor/aws/aws-crt-php/**/CTestTestfile.cmake
+src/vendor/aws/aws-crt-php/**/_deps
+
+### CMake Patch ###
+# External projects
+src/vendor/aws/aws-crt-php/**/*-prefix
+
+### PhpStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+src/vendor/aws/aws-crt-php/**/.idea/**/workspace.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/tasks.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/usage.statistics.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/dictionaries
+src/vendor/aws/aws-crt-php/**/.idea/**/shelf
+src/vendor/aws/aws-crt-php/**/.idea
+# Generated files
+src/vendor/aws/aws-crt-php/**/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+src/vendor/aws/aws-crt-php/**/.idea/**/dataSources
+src/vendor/aws/aws-crt-php/**/.idea/**/dataSources.ids
+src/vendor/aws/aws-crt-php/**/.idea/**/dataSources.local.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/sqlDataSources.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/dynamic.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/uiDesigner.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/dbnavigator.xml
+
+# Gradle
+src/vendor/aws/aws-crt-php/**/.idea/**/gradle.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+src/vendor/aws/aws-crt-php/**/cmake-build-*
+
+# Mongo Explorer plugin
+src/vendor/aws/aws-crt-php/**/.idea/**/mongoSettings.xml
+
+# File-based project format
+src/vendor/aws/aws-crt-php/**/*.iws
+
+# IntelliJ
+src/vendor/aws/aws-crt-php/**/out
+
+# mpeltonen/sbt-idea plugin
+src/vendor/aws/aws-crt-php/**/.idea_modules
+
+# JIRA plugin
+src/vendor/aws/aws-crt-php/**/atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+src/vendor/aws/aws-crt-php/**/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+src/vendor/aws/aws-crt-php/**/com_crashlytics_export_strings.xml
+src/vendor/aws/aws-crt-php/**/crashlytics.properties
+src/vendor/aws/aws-crt-php/**/crashlytics-build.properties
+src/vendor/aws/aws-crt-php/**/fabric.properties
+
+# Editor-based Rest Client
+src/vendor/aws/aws-crt-php/**/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+src/vendor/aws/aws-crt-php/**/.idea/caches/build_file_checksums.ser
+
+### PhpStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+src/vendor/aws/aws-crt-php/**/.idea/**/sonarlint
+
+# SonarQube Plugin
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+src/vendor/aws/aws-crt-php/**/.idea/**/sonarIssues.xml
+
+# Markdown Navigator plugin
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+src/vendor/aws/aws-crt-php/**/.idea/**/markdown-navigator.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/markdown-navigator-enh.xml
+src/vendor/aws/aws-crt-php/**/.idea/**/markdown-navigator
+
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+src/vendor/aws/aws-crt-php/**/.idea/$CACHE_FILE$
+
+# CodeStream plugin
+# https://plugins.jetbrains.com/plugin/12206-codestream
+src/vendor/aws/aws-crt-php/**/.idea/codestream.xml
+
+# End of https://www.toptal.com/developers/gitignore/api/autotools,cmake,phpstorm
+
+src/vendor/aws/aws-crt-php/**/.deps
+src/vendor/aws/aws-crt-php/**/.libs
+src/vendor/aws/aws-crt-php/**/build
+src/vendor/aws/aws-crt-php/**/configure.in
+src/vendor/aws/aws-crt-php/**/configure.ac
+src/vendor/aws/aws-crt-php/**/mkinstalldirs
+src/vendor/aws/aws-crt-php/**/run-tests.php
+src/vendor/aws/aws-crt-php/**/Makefile.global
+src/vendor/aws/aws-crt-php/**/acinclude.m4
+src/vendor/aws/aws-crt-php/**/libtool
+src/vendor/aws/aws-crt-php/**/modules
+src/vendor/aws/aws-crt-php/**/*.lo
+src/vendor/aws/aws-crt-php/**/config.h
+src/vendor/aws/aws-crt-php/**/config.nice
+src/vendor/aws/aws-crt-php/**/*.la
+src/vendor/aws/aws-crt-php/**/Makefile*
+!src/vendor/aws/aws-crt-php/**/Makefile.am
+!src/vendor/aws/aws-crt-php/**/Makefile.frag
+!src/vendor/aws/aws-crt-php/**/Makefile.frag.w32
+src/vendor/aws/aws-crt-php/vendor
+src/vendor/aws/aws-crt-php/**/.idea
+src/vendor/aws/aws-crt-php/**/.DS_Store
+src/vendor/aws/aws-crt-php/**/composer.lock
+src/vendor/aws/aws-crt-php/**/PHP-Parser*
+src/vendor/aws/aws-crt-php/**/src/*.so
+src/vendor/aws/aws-crt-php/**/src/*.dylib
+src/vendor/aws/aws-crt-php/**/src/*.dll
+
+# ignoring output of package.xml as it needs to be generated from ./prepare_release.sh in each publishing
+src/vendor/aws/aws-crt-php/**/package.xml
+src/vendor/aws/aws-crt-php/**/*.tgz
+
+# flyctl launch added from src/vendor/aws/aws-crt-php/ext/.gitignore
+src/vendor/aws/aws-crt-php/ext/**/*.so
+src/vendor/aws/aws-crt-php/ext/**/api.h
+
+# flyctl launch added from src/vendor/aws/aws-crt-php/src/.gitignore
+src/vendor/aws/aws-crt-php/src/**/api.h
+src/vendor/aws/aws-crt-php/src/**/pkgconfig
+src/vendor/aws/aws-crt-php/src/**/*.so*
+
+# flyctl launch added from src/vendor/facade/ignition/resources/.gitignore
+src/vendor/facade/ignition/resources/**/compiled/*
+!src/vendor/facade/ignition/resources/**/compiled/index.html
+!src/vendor/facade/ignition/resources/**/compiled/ignition.js
+
+# flyctl launch added from src/vendor/hamcrest/hamcrest-php/.gitignore
+src/vendor/hamcrest/hamcrest-php/**/composer.lock
+src/vendor/hamcrest/hamcrest-php/**/vendor
+
+# flyctl launch added from src/vendor/psr/container/.gitignore
+src/vendor/psr/container/**/composer.lock
+src/vendor/psr/container/**/composer.phar
+src/vendor/psr/container/vendor
+
+# flyctl launch added from src/vendor/psr/event-dispatcher/.gitignore
+src/vendor/psr/event-dispatcher/vendor
+src/vendor/psr/event-dispatcher/**/composer.lock
+
+# flyctl launch added from src/vendor/psr/http-factory/.gitignore
+src/vendor/psr/http-factory/**/composer.lock
+src/vendor/psr/http-factory/**/vendor
+
+# flyctl launch added from src/vendor/sebastian/resource-operations/.gitignore
+src/vendor/sebastian/resource-operations/.idea
+src/vendor/sebastian/resource-operations/.php_cs.cache
+src/vendor/sebastian/resource-operations/build/FunctionSignatureMap.php
+src/vendor/sebastian/resource-operations/composer.lock
+src/vendor/sebastian/resource-operations/vendor
+src/vendor/sebastian/resource-operations/.phpunit.result.cache
+
+# flyctl launch added from src/vendor/sebastian/version/.gitignore
+src/vendor/sebastian/version/.php_cs.cache
+src/vendor/sebastian/version/.idea
+
+# flyctl launch added from src/vendor/stripe/stripe-php/.gitignore
+# Ignore build files
+src/vendor/stripe/stripe-php/**/build/*
+
+# Mac OS X dumps these all over the place.
+src/vendor/stripe/stripe-php/**/.DS_Store
+
+# Ignore the SimpleTest library if it is installed to /test/.
+src/vendor/stripe/stripe-php/test/simpletest
+
+# Ignore the /vendor/ directory for people using composer
+src/vendor/stripe/stripe-php/vendor
+
+# If the vendor directory isn't being commited the composer.lock file should also be ignored
+src/vendor/stripe/stripe-php/**/composer.lock
+
+# Ignore PHPUnit coverage file
+src/vendor/stripe/stripe-php/**/clover.xml
+
+# Ignore IDE's configuration files
+src/vendor/stripe/stripe-php/**/.idea
+
+# Ignore PHP CS Fixer local config and cache
+src/vendor/stripe/stripe-php/**/.php_cs
+src/vendor/stripe/stripe-php/**/.php_cs.cache
+src/vendor/stripe/stripe-php/**/.php-cs-fixer.cache
+
+# Ignore PHPStan local config
+src/vendor/stripe/stripe-php/**/.phpstan.neon
+
+# Ignore phpDocumentor's local config and artifacts
+src/vendor/stripe/stripe-php/**/.phpdoc/*
+src/vendor/stripe/stripe-php/**/phpdoc.xml
+
+# Ignore cached PHPUnit results.
+src/vendor/stripe/stripe-php/**/.phpunit.result.cache
+
+# flyctl launch added from src/vendor/swiftmailer/swiftmailer/.gitignore
+src/vendor/swiftmailer/swiftmailer/.php_cs.cache
+src/vendor/swiftmailer/swiftmailer/.phpunit
+src/vendor/swiftmailer/swiftmailer/.phpunit.result.cache
+src/vendor/swiftmailer/swiftmailer/build/*
+src/vendor/swiftmailer/swiftmailer/composer.lock
+src/vendor/swiftmailer/swiftmailer/phpunit.xml
+src/vendor/swiftmailer/swiftmailer/tests/acceptance.conf.php
+src/vendor/swiftmailer/swiftmailer/tests/smoke.conf.php
+src/vendor/swiftmailer/swiftmailer/vendor
+
+# flyctl launch added from src/vendor/symfony/deprecation-contracts/.gitignore
+src/vendor/symfony/deprecation-contracts/**/vendor
+src/vendor/symfony/deprecation-contracts/**/composer.lock
+src/vendor/symfony/deprecation-contracts/**/phpunit.xml
+
+# flyctl launch added from src/vendor/symfony/event-dispatcher-contracts/.gitignore
+src/vendor/symfony/event-dispatcher-contracts/**/vendor
+src/vendor/symfony/event-dispatcher-contracts/**/composer.lock
+src/vendor/symfony/event-dispatcher-contracts/**/phpunit.xml
+
+# flyctl launch added from src/vendor/symfony/service-contracts/.gitignore
+src/vendor/symfony/service-contracts/**/vendor
+src/vendor/symfony/service-contracts/**/composer.lock
+src/vendor/symfony/service-contracts/**/phpunit.xml
+
+# flyctl launch added from src/vendor/symfony/translation-contracts/.gitignore
+src/vendor/symfony/translation-contracts/**/vendor
+src/vendor/symfony/translation-contracts/**/composer.lock
+src/vendor/symfony/translation-contracts/**/phpunit.xml
+fly.toml
